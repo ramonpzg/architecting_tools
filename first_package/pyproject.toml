@@ -2,11 +2,12 @@
 requires = ["setuptools >= 65", "setuptools_scm[toml]", "wheel"]
 build-backend = "setuptools.build_meta"
 
+
 [project]
 name = "lassoreg"
 authors = [{name = "Ramon Perez", email = "ramon.perez@seldon.io"}]
 description = "My wonderful Python package"
-dynamic = ["version"]
+version = "0.1.0"
 readme = "README.md"
 license = {text = "MIT License"}
 requires-python = ">=3.11"
@@ -22,19 +23,7 @@ keywords = [
     "Model",
     "Statistical Model"
 ]
-classifiers = [
-    "Development Status :: 3 - Alpha",
-    "Intended Audience :: Science/Research",
-    "License :: OSI Approved :: MIT License",
-    "Natural Language :: English",
-    "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3.8",
-    "Topic :: Scientific/Engineering",
-]
 
-[tool.setuptools_scm]
-write_to = "lassoreg/_version.py"
 
 [project.urls]
-Source = "github.com/MyProfile/my_project"
-Documentation = "my_project.readthedocs.io/en/latest"
+Source = "https://github.com/ramonpzg/architecting_tools/first_package"
