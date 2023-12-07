@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools >= 65", "setuptools_scm[toml]", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lassoreg"
+authors = [{name = "Ramon Perez", email = "ramon.perez@seldon.io"}]
+description = "My wonderful Python package"
+dynamic = ["version"]
+readme = "README.md"
+license = {text = "MIT License"}
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "importlib_metadata"
+]
+keywords = [
+    "statistics",
+    "lasso",
+    "lasso regression",
+    "Regression",
+    "Model",
+    "Statistical Model"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Scientific/Engineering",
+]
+
+[tool.setuptools_scm]
+write_to = "lassoreg/_version.py"
+
+[project.urls]
+Source = "github.com/MyProfile/my_project"
+Documentation = "my_project.readthedocs.io/en/latest"
