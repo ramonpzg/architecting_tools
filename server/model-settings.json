@@ -1,0 +1,4 @@
+{
+    "name": "lasso_service",
+    "implementation": "my_lasso.LassoCLS"
+}
