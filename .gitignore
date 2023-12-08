@@ -1,0 +1,6 @@
+__pycache__
+archive
+.hypothesis/
+first_package/build/
+first_package/dist/
+first_package/lassoreg.egg-info/
